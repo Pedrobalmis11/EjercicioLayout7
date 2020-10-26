@@ -19,6 +19,7 @@
             <TextBlock Text="Formulario"
                        DockPanel.Dock="Top"
                        HorizontalAlignment="Center"
+                       FontWeight="Bold"
                        FontSize="40">
             </TextBlock>
 

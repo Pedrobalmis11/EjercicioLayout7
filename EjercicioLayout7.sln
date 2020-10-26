@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLayout6", "EjercicioLayout6\EjercicioLayout6.csproj", "{126C1C8D-EB01-4230-8499-9ECED67CE434}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioLayout7", "EjercicioLayout6\EjercicioLayout7.csproj", "{126C1C8D-EB01-4230-8499-9ECED67CE434}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
