@@ -61,7 +61,8 @@
                                      Height="23"
                                      TextWrapping="Wrap" />
 
-                            <Image Grid.Row="0"
+                            <Image ToolTip="Máximo 100 carácteres"
+                                   Grid.Row="0"
                                    Grid.Column="2"
                                    Source="info.png"
                                    Width="25">
@@ -78,7 +79,8 @@
                                      Height="23"
                                      TextWrapping="Wrap" />
 
-                            <Image Grid.Row="1"
+                            <Image ToolTip="Número entero entre 0 y 100"
+                                   Grid.Row="1"
                                    Grid.Column="2"
                                    Source="info.png"
                                    Width="25">
@@ -95,7 +97,8 @@
                                      Height="23"
                                      TextWrapping="Wrap" />
 
-                            <Image Grid.Row="2"
+                            <Image ToolTip="Incluir código postal"
+                                   Grid.Row="2"
                                    Grid.Column="2"
                                    Source="info.png"
                                    Width="25">
