@@ -12,7 +12,9 @@
         MinHeight="533.448"
         MinWidth="1083.087">
 
-    <Grid>
+
+
+    <Grid Margin="0,0,30,0">
 
         <Grid.RowDefinitions>
             <RowDefinition Height="80"></RowDefinition>
@@ -39,13 +41,9 @@
                     Grid.Column="0"
                     Grid.ColumnSpan="2">
 
-            <Border BorderBrush="Black"
-                    BorderThickness="3"
-                    Margin="30,0,30,30"
-                    CornerRadius="5">
+            <Border Style="{StaticResource BordeCuadro}">
                 <Border.Effect>
-                    <DropShadowEffect ShadowDepth="7"
-                                      BlurRadius="10" />
+                    <DropShadowEffect />
                 </Border.Effect>
 
                 <StackPanel Height="110"
@@ -65,60 +63,45 @@
                         </Grid.ColumnDefinitions>
 
                         <TextBlock Grid.Row="0"
+                                   Style="{StaticResource estiloLabel}"
                                    Grid.Column="0"
-                                   FontSize="15"
-                                   Text="Nombre"
-                                   Margin="5" />
+                                   Text="Nombre" />
 
                         <TextBox Grid.Row="0"
-                                 Grid.Column="1"
-                                 Height="23"
-                                 TextWrapping="Wrap"
-                                 Margin="0,4" />
+                                 Grid.Column="1" />
 
                         <Image ToolTip="Máximo 100 carácteres"
+                               Style="{StaticResource estiloInfoIcon}"
                                Grid.Row="0"
-                               Grid.Column="3"
-                               Source="info.png"
-                               Width="25">
+                               Grid.Column="3">
                         </Image>
 
                         <TextBlock Grid.Row="1"
+                                   Style="{StaticResource estiloLabel}"
                                    Grid.Column="0"
-                                   FontSize="15"
-                                   Text="Edad"
-                                   Margin="5" />
+                                   Text="Edad" />
 
                         <TextBox Grid.Row="1"
-                                 Grid.Column="1"
-                                 Height="23"
-                                 TextWrapping="Wrap"
-                                 Margin="0,4" />
+                                 Grid.Column="1" />
 
                         <Image ToolTip="Número entero entre 0 y 100"
+                               Style="{StaticResource estiloInfoIcon}"
                                Grid.Row="1"
-                               Grid.Column="3"
-                               Source="info.png"
-                               Width="25">
+                               Grid.Column="3">
                         </Image>
 
                         <TextBlock Grid.Row="2"
+                                   Style="{StaticResource estiloLabel}"
                                    Grid.Column="0"
-                                   FontSize="15"
-                                   Text="Dirección"
-                                   Margin="5" />
+                                   Text="Dirección" />
 
                         <TextBox Grid.Row="2"
-                                 Grid.Column="1"
-                                 Height="23"
-                                 TextWrapping="Wrap"
-                                 Margin="0,4" />
+                                 Grid.Column="1" />
 
                         <Image ToolTip="Incluir código postal"
+                               Style="{StaticResource estiloInfoIcon}"
                                Grid.Row="2"
-                               Grid.Column="3"
-                               Source="info.png"
-                               Width="25">
+                               Grid.Column="3">
                         </Image>
 
 
@@ -127,13 +110,9 @@
             </Border>
 
 
-            <Border BorderBrush="Black"
-                    BorderThickness="3"
-                    Margin="30,0,30,30"
-                    CornerRadius="5">
+            <Border Style="{StaticResource BordeCuadro}">
                 <Border.Effect>
-                    <DropShadowEffect ShadowDepth="7"
-                                      BlurRadius="10" />
+                    <DropShadowEffect />
                 </Border.Effect>
 
                 <StackPanel Orientation="Horizontal"
@@ -148,7 +127,6 @@
                               Height="100">
                         <StackPanel Margin="5">
                             <CheckBox Content="Hacer deporte" />
-
                             <CheckBox Content="Viajar" />
                             <CheckBox Content="Ver series" />
                             <CheckBox Content="Leer comics" />
@@ -178,9 +156,9 @@
 
         </StackPanel>
         <Image Stretch="Fill"
-            Grid.Row="1"
+               Grid.Row="1"
                Grid.Column="2"
-               Source="foto.jpg"/>
+               Source="foto.jpg" />
 
         <DockPanel Grid.Row="2"
                    Grid.Column="0"
@@ -196,18 +174,10 @@
 
             </TextBlock>
 
-            <Button DockPanel.Dock="Right"
-                    Content="Cancelar"
-                    Width="130"
-                    Height="30"
-                    Margin="2">
+            <Button Content="Cancelar">
 
             </Button>
-            <Button DockPanel.Dock="Right"
-                    Content="Aceptar"
-                    Width="130"
-                    Height="30"
-                    Margin="2">
+            <Button Content="Aceptar">
 
             </Button>
 

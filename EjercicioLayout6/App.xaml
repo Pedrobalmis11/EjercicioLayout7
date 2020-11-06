@@ -3,7 +3,85 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:EjercicioLayout6"
              StartupUri="MainWindow.xaml">
+    <!--Etilos-->
     <Application.Resources>
-         
+        <!--Etilo TextBlock Formularios-->
+        <Style TargetType="TextBlock"
+               x:Key="estiloLabel">
+
+            <Setter Property="FontSize"
+                    Value="15" />
+
+            <Setter Property="Margin"
+                    Value="5" />
+
+        </Style>
+
+        <!--Etilo TextBox Formularios-->
+        <Style TargetType="TextBox">
+
+            <Setter Property="Height"
+                    Value="23" />
+
+            <Setter Property="TextWrapping"
+                    Value="Wrap" />
+
+            <Setter Property="Margin"
+                    Value="0,4" />
+
+        </Style>
+
+        <!--Etilo Image Formularios-->
+        <Style TargetType="Image"
+               x:Key="estiloInfoIcon">
+
+            <Setter Property="Source"
+                    Value="info.png" />
+
+            <Setter Property="Width"
+                    Value="25" />
+
+        </Style>
+
+        <!--Etilo Button-->
+        <Style TargetType="Button">
+
+            <Setter Property="DockPanel.Dock"
+                    Value="Right" />
+
+            <Setter Property="Width"
+                    Value="130" />
+
+            <Setter Property="Height"
+                    Value="30" />
+
+            <Setter Property="Margin"
+                    Value="2" />
+
+        </Style>
+
+        <!--Etilo Border-->
+        <Style TargetType="Border"
+               x:Key="BordeCuadro">
+
+            <Setter Property="BorderBrush"
+                    Value="Black" />
+
+            <Setter Property="BorderThickness"
+                    Value="3" />
+
+            <Setter Property="Margin"
+                    Value="30,0,30,30" />
+
+            <Setter Property="CornerRadius"
+                    Value="5" />
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect ShadowDepth="7"
+                                      BlurRadius="10" />
+
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>
